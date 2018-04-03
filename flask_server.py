@@ -19,7 +19,6 @@ def responses():
     resp = Response(json.dumps(data))
     subjects = data['subjects']
     usn = data['usn']
-    print(usn)
     i = 0;
     z=[];
     for key, value in data.items():
@@ -55,7 +54,6 @@ def usn_check():
     data = c.fetchone()
     if data is None:
         resp = Response(json.dumps({'allowed': True}))
-        # c.execute("INSERT into usn values('" + content['usn'] + "')")
     else:
         resp = Response(json.dumps({'allowed': False}))
     conn.commit()
