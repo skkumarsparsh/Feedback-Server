@@ -1,7 +1,15 @@
 {
     "Semester 6": {
-        "Class D": {
+        "Class B": {
             "Mrs. Monika M": "Compiler Design",
+            "Mr. Venkatesan": "Wireless Sensor Networks",
+            "Mrs. Kusuma": "Computer Graphics",
+            "Mrs. Prameetha Pai": "Software Testing",
+            "Mrs. Poornima A B": "Cloud and Big Data",
+            "Mrs. Asnika": "Internet and Web Technologies"
+        },
+        "Class D": {
+            "Mrs. Monika M": "CD",
             "Mr. Venkatesan": "Wireless Sensor Networks",
             "Mrs. Kusuma": "Computer Graphics",
             "Mrs. Prameetha Pai": "Software Testing",

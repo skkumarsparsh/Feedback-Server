@@ -8,8 +8,48 @@ app = Flask(__name__)
 def get_teachers():
     with open('data.json', 'r') as f:
         data = json.load(f)
-    print(data)
     resp = Response(json.dumps(data))
+    resp.headers['Access-Control-Allow-Origin'] = '*'
+    return resp
+
+@app.route('/get-s3t',methods = ['POST'])
+def get_stuff():
+    with open('data.json', 'r') as f:
+        data = json.load(f)
+    semesters = []
+    sections = {}
+    teachers = []
+    subjects = {}
+    for t in data:
+        semesters.append(t)
+        tp = []
+        d = data[t]
+        for temp in d:
+            tp.append(temp)
+        sections[t] = tp
+    for temp in sections:
+        for s in sections[temp]:
+            d = data[temp][s]
+            for t in d:
+                if t not in teachers:
+                    teachers.append(t)
+    for tea in teachers:
+        xyz = []
+        for temp in sections:
+            for s in sections[temp]:
+                d = data[temp][s]
+                for t in d:
+                    if tea == t:
+                        if d[t] not in xyz:
+                            xyz.append(d[t])
+        subjects[tea] = xyz
+    resp = {}
+    print(subjects)
+    resp["semesters"] = semesters
+    resp["sections"] = sections
+    resp["teachers"] = teachers
+    resp["subjects"] = subjects
+    resp = Response(json.dumps(resp))
     resp.headers['Access-Control-Allow-Origin'] = '*'
     return resp
 
@@ -20,7 +60,7 @@ def responses():
     subjects = data['subjects']
     usn = data['usn']
     i = 0;
-    z=[];
+    z = [];
     for key, value in data.items():
         if not(key == 'subjects' or key == 'usn'):
             print(key, len(value), subjects[i])
