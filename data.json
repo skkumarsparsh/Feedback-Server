@@ -1,7 +1,129 @@
 {
-    "Semester 6": {
+    "Semester 3": {
+	"Class A": {
+            "Mrs. Sahana D": "Data Structure With C",
+            "Mrs. Komala": "Enigneering Mathematics 3",
+            "Mrs. Asha Thomas": "Logic Design",
+            "Mr. Vishwajith": "Computer Organisation",
+            "Mrs. Prameetha Pai": "DMS",
+            "Mrs. Shravya": "Oops With Java"
+        },
         "Class B": {
-            "Mrs. Monika M": "Compiler Design",
+            "Mrs. Sahana D": "Data Structure With C",
+            "Mrs. Komala": "Enigneering Mathematics 3",
+            "Mrs. Asha Thomas": "Logic Design",
+            "Mr. Vishwajith": "Computer Organisation",
+            "Mrs. Prameetha Pai": "DMS",
+            "Mrs. Shravya": "Oops With Java"
+        },
+	"Class C": {
+            "Mrs. Sahana D": "Data Structure With C",
+            "Mrs. Komala": "Enigneering Mathematics 3",
+            "Mrs. Asha Thomas": "Logic Design",
+            "Mr. Vishwajith": "Computer Organisation",
+            "Mrs. Prameetha Pai": "DMS",
+            "Mrs. Shravya": "Oops With Java"
+        },
+        "Class D": {
+            "Mrs. Sahana D": "Data Structure With C",
+            "Mrs. Komala": "Enigneering Mathematics 3",
+            "Mrs. Asha Thomas": "Logic Design",
+            "Mr. Vishwajith": "Computer Organisation",
+            "Mrs. Prameetha Pai": "DMS",
+            "Mrs. Shravya": "Oops With Java"
+        }
+    },
+    "Semester 4": {
+	"Class A": {
+            "Mrs. Dhara A": "Algorithm Design and Analysis",
+            "Mrs. Bhanu Priya": "Introduction to Python",
+            "Mrs. Asha Thomas": "Operating Systems",
+            "Mr. Vishwajith": "Micro Processors",
+            "Mrs. Shashikala": "Engineering Mathematics",
+            "Mrs. Poornima A B": "Unix System Programming"
+        },
+        "Class B": {
+            "Mrs. Dhara A": "Algorithm Design and Analysis",
+            "Mrs. Bhanu Priya": "Introduction to Python",
+            "Mrs. Asha Thomas": "Operating Systems",
+            "Mr. Vishwajith": "Micro Processors",
+            "Mrs. Shashikala": "Engineering Mathematics",
+            "Mrs. Poornima A B": "Unix System Programming"
+        },
+	"Class C": {
+            "Mrs. Dhara A": "Algorithm Design and Analysis",
+            "Mrs. Bhanu Priya": "Introduction to Python",
+            "Mrs. Asha Thomas": "Operating Systems",
+            "Mr. Vishwajith": "Micro Processors",
+            "Mrs. Shashikala": "Engineering Mathematics",
+            "Mrs. Poornima A B": "Unix System Programming"
+        },
+        "Class D": {
+            "Mrs. Dhara A": "Algorithm Design and Analysis",
+            "Mrs. Bhanu Priya": "Introduction to Python",
+            "Mrs. Asha Thomas": "Operating Systems",
+            "Mr. Vishwajith": "Micro Processors",
+            "Mrs. Shashikala": "Engineering Mathematics",
+            "Mrs. Poornima A B": "Unix System Programming"
+        }
+    },
+    "Semester 5": {
+	"Class A": {
+            "Mrs. Bhanu Priya": "Formal Languages and Automata Theory",
+            "Mr. Venkatesan": "Computer Networks",
+            "Mrs. Anupama G": "Software Engineering",
+            "Mrs. Arun Kumar": "Database Management System",
+            "Mrs. Muquita Almas": "Management and Entreprenuership",
+            "Mrs. Vindhya": "Artificial Intelligence and Agent Technology",
+            "Mr. Anil S": "Android Programming"
+        },
+        "Class B": {
+            "Mrs. Bhanu Priya": "Formal Languages and Automata Theory",
+            "Mr. Venkatesan": "Computer Networks",
+            "Mrs. Anupama G": "Software Engineering",
+            "Mrs. Arun Kumar": "Database Management System",
+            "Mrs. Muquita Almas": "Management and Entreprenuership",
+            "Mrs. Vindhya": "Artificial Intelligence and Agent Technology",
+            "Mr. Anil S": "Android Programming"
+        },
+	"Class C": {
+            "Mrs. Bhanu Priya": "Formal Languages and Automata Theory",
+            "Mr. Venkatesan": "Computer Networks",
+            "Mrs. Anupama G": "Software Engineering",
+            "Mrs. Arun Kumar": "Database Management System",
+            "Mrs. Muquita Almas": "Management and Entreprenuership",
+            "Mrs. Vindhya": "Artificial Intelligence and Agent Technology",
+            "Mr. Anil S": "Android Programming"
+        },
+        "Class D": {
+            "Mrs. Bhanu Priya": "Formal Languages and Automata Theory",
+            "Mr. Venkatesan": "Computer Networks",
+            "Mrs. Anupama G": "Software Engineering",
+            "Mrs. Arun Kumar": "Database Management System",
+            "Mrs. Muquita Almas": "Management and Entreprenuership",
+            "Mrs. Vindhya": "Artificial Intelligence and Agent Technology",
+            "Mr. Anil S": "Android Programming"
+        }
+    },
+    "Semester 6": {
+	"Class A": {
+            "Mrs. Monika M": "CD",
+            "Mr. Venkatesan": "Wireless Sensor Networks",
+            "Mrs. Kusuma": "Computer Graphics",
+            "Mrs. Prameetha Pai": "Software Testing",
+            "Mrs. Poornima A B": "Cloud and Big Data",
+            "Mrs. Asnika": "Internet and Web Technologies"
+        },
+        "Class B": {
+            "Mrs. Monika M": "CD",
+            "Mr. Venkatesan": "Wireless Sensor Networks",
+            "Mrs. Kusuma": "Computer Graphics",
+            "Mrs. Prameetha Pai": "Software Testing",
+            "Mrs. Poornima A B": "Cloud and Big Data",
+            "Mrs. Asnika": "Internet and Web Technologies"
+        },
+	"Class C": {
+            "Mrs. Monika M": "CD",
             "Mr. Venkatesan": "Wireless Sensor Networks",
             "Mrs. Kusuma": "Computer Graphics",
             "Mrs. Prameetha Pai": "Software Testing",
@@ -18,23 +140,59 @@
         }
     },
     "Semester 7": {
+	"Class A": {
+            "Mrs. Amutha": "Advanced Java",
+            "Mr. Deepak": "Machine Learning",
+            "Mrs. Rashmi": "System Architecture",
+            "Mrs. Vindhya": "System Modelling",
+            "Mr. Prasad": "Embedded Systems",
+            "Mr. Krishnan R": "Cyber Security"
+        },
+	"Class B": {
+            "Mrs. Amutha": "Advanced Java",
+            "Mr. Deepak": "Machine Learning",
+            "Mrs. Rashmi": "System Architecture",
+            "Mrs. Vindhya": "System Modelling",
+            "Mr. Prasad": "Embedded Systems",
+            "Mr. Krishnan R": "Cyber Security"
+        },
+	"Class C": {
+            "Mrs. Amutha": "Advanced Java",
+            "Mr. Deepak": "Machine Learning",
+            "Mrs. Rashmi": "System Architecture",
+            "Mrs. Vindhya": "System Modelling",
+            "Mr. Prasad": "Embedded Systems",
+            "Mr. Krishnan R": "Cyber Security"
+        },
         "Class D": {
-            "Mrs. Monika M": "Compiler Design",
-            "Mr. Venkatesan": "Wireless Sensor Networks",
-            "Mrs. Kusuma": "Computer Graphics",
-            "Mrs. Prameetha Pai": "Software Testing",
-            "Mrs. Poornima A B": "Cloud and Big Data",
-            "Mrs. Asnika": "Internet and Web Technologies"
+            "Mrs. Amutha": "Advanced Java",
+            "Mr. Deepak": "Machine Learning",
+            "Mrs. Rashmi": "System Architecture",
+            "Mrs. Vindhya": "System Modelling",
+            "Mr. Prasad": "Embedded Systems",
+            "Mr. Krishnan R": "Cyber Security"
         }
     },
     "Semester 8": {
+	"Class A": {
+            "Mr. Tajuddin": "Deep Learning and Neural Networks",
+            "Mr. Ravichandra": "System Security and Integrity",
+            "Mr. Nagaraj": "Applications of IOT"
+        },
+	"Class B": {
+            "Mr. Tajuddin": "Deep Learning and Neural Networks",
+            "Mr. Ravichandra": "System Security and Integrity",
+            "Mr. Nagaraj": "Applications of IOT"
+        },
+	"Class C": {
+            "Mr. Tajuddin": "Deep Learning and Neural Networks",
+            "Mr. Ravichandra": "System Security and Integrity",
+            "Mr. Nagaraj": "Applications of IOT"
+        },
         "Class D": {
-            "Mrs. Monika M": "Compiler Design",
-            "Mr. Venkatesan": "Wireless Sensor Networks",
-            "Mrs. Kusuma": "Computer Graphics",
-            "Mrs. Prameetha Pai": "Software Testing",
-            "Mrs. Poornima A B": "Cloud and Big Data",
-            "Mrs. Asnika": "Internet and Web Technologies"
+            "Mr. Tajuddin": "Deep Learning and Neural Networks",
+            "Mr. Ravichandra": "System Security and Integrity",
+            "Mr. Nagaraj": "Applications of IOT"
         }
     }
 }
